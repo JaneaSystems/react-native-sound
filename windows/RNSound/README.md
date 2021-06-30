@@ -1,16 +1,16 @@
-# [module name here] Windows Implementation
+# react-native-sound Windows Implementation
 
 ## Module Installation
 You can either use autolinking on react-native-windows 0.63 and later or manually link the module on earlier releases.
 
 ## Automatic install with autolinking on RNW >= 0.63
-RNSound supports autolinking. Just call: `npm i [module name here] --save`
+RNSound supports autolinking. Just call: `npm i react-native-sound --save`
 
 ## Manual installation on RNW >= 0.62
-1. `npm install [module name here] --save`
+1. `npm install react-native-sound --save`
 2. Open your solution in Visual Studio 2019 (eg. `windows\yourapp.sln`)
 3. Right-click Solution icon in Solution Explorer > Add > Existing Project...
-4. Add `node_modules\[module name here]\windows\RNSound\RNSound.vcxproj`
+4. Add `node_modules\react-native-sound\windows\RNSound\RNSound.vcxproj`
 5. Right-click main application project > Add > Reference...
 6. Select `RNSound` in Solution Projects
 7. In app `pch.h` add `#include "winrt/RNSound.h"`

@@ -161,9 +161,10 @@
     </Midl>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\whoosh.mp3">
+    <CopyFileToFolders Include="..\..\whoosh.mp3">
       <DeploymentContent>true</DeploymentContent>
-    </None>
+      <FileType>Document</FileType>
+    </CopyFileToFolders>
     <None Include="packages.config" />
     <None Include="PropertySheet.props" />
     <Text Include="readme.txt">

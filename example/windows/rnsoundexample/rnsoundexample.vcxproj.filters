@@ -61,8 +61,8 @@
     <Page Include="MainPage.xaml" />
   </ItemGroup>
   <ItemGroup>
-    <Media Include="..\..\whoosh.mp3">
+    <CopyFileToFolders Include="..\..\whoosh.mp3">
       <Filter>Assets</Filter>
-    </Media>
+    </CopyFileToFolders>
   </ItemGroup>
 </Project>
